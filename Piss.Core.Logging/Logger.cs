@@ -17,7 +17,7 @@ public static class Logger {
     private static ILogger BuildLogger() => new LoggerConfiguration()
         .MinimumLevel.Debug()
         .WriteTo.Console()
-        .WriteTo.File("logs/logs-.txt", rollingInterval: RollingInterval.Day)
+        .WriteTo.File("logs/logs-.txt", rollingInterval: RollingInterval.Hour)
         .CreateLogger();
 
     public static void Information(string message, params object[] args) => Instance.Information(message, args);
