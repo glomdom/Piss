@@ -1,3 +1,7 @@
 /.idea/
 /Piss.*/bin/
 /Piss.*/obj/
+/Testbed/bin/
+/Testbed/obj/
+
+*.DotSettings.*

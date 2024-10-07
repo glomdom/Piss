@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Piss.Core.Config\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting", "Piss.Core.Scripting\Scripting.csproj", "{81992726-4298-4372-AD82-EA3D3C31AB6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testbed", "Testbed\Testbed.csproj", "{60AE2157-BA59-44ED-A36C-8627D98CA861}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,5 +49,9 @@ Global
 		{81992726-4298-4372-AD82-EA3D3C31AB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81992726-4298-4372-AD82-EA3D3C31AB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81992726-4298-4372-AD82-EA3D3C31AB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AE2157-BA59-44ED-A36C-8627D98CA861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AE2157-BA59-44ED-A36C-8627D98CA861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AE2157-BA59-44ED-A36C-8627D98CA861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AE2157-BA59-44ED-A36C-8627D98CA861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
